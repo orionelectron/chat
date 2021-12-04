@@ -26,6 +26,7 @@ function MainContainer() {
     console.log("Username selected!!");
     setUsername(textInput.current.value);
     socket.auth = { username: username };
+    
     socket.connect();
 
   }
