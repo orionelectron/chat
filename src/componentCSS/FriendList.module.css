@@ -1,0 +1,10 @@
+.friend_container{
+    display: flex;
+    flex-direction: column;
+    width: 50vh;
+}
+.friend{
+    padding: 10px;
+    background-color: tomato;
+    color: white;
+}

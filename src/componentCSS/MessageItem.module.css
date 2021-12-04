@@ -1,0 +1,11 @@
+.message {
+    background-color:aqua;
+    color: white;
+    padding: 10px;
+}
+.message_container{
+    display: flex;
+    overflow-y: scroll;
+    flex-direction: column;
+    height: 90vh;
+}
