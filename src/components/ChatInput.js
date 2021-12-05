@@ -8,7 +8,7 @@ function ChatInput(props){
     const preventDefault = (e) => {
         e.preventDefault();
         console.log("message submitted");
-        socket.emit("message", {message, to: props.friend, from: socket.id});
+        socket.emit("message", {message, to: props.friend, from: socket.username});
         setMessage('');
 
     }

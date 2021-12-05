@@ -5,7 +5,7 @@ import SocketContext from './socketContext';
 import MessageContext from './messageContext';
 function MessageItem(props) {
     
-
+    console.log(props.friend);
     const [messages, setMessages] = useState([]);
     
     const socket = useContext(SocketContext);
