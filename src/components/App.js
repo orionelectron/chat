@@ -16,7 +16,7 @@ function ChatContainer(props) {
   
 
  
- const [chatFriend, setFriend] = useState(''); 
+ const [chatFriend, setFriend] = useState({}); 
  
 
   console.log("Chat container executed!!");

@@ -10,9 +10,11 @@ const socket = io('http://localhost:4000', {
   autoConnect: false
 });
 
+/*
 socket.onAny((event, ...args) => {
   console.log(event, args);
 });
+*/
 
 
 function MainContainer() {
@@ -30,7 +32,7 @@ function MainContainer() {
     socket.connect();
 
   }
-  console.log("Chat container executed!!");
+  //console.log("Chat container executed!!");
 
 
 
